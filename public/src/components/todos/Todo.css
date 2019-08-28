@@ -1,0 +1,42 @@
+
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    padding: 5px;
+    margin: auto;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+    font-style: italic;
+}
+
+.completed-button, .remove-button {
+    border: none;
+    font-size: .55em;
+}
+
+@media screen and (max-width: 670px) {
+    .todo-item {
+      font-size: .7em;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .todo-item {
+      font-size: .6em;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 445px) {
+    .todo-item {
+      font-size: .5em;
+      width: 100%;
+      align-content: center;
+      text-align: center;
+    }
+  }
