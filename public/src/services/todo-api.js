@@ -76,7 +76,7 @@ export function signUp(user) {
     });
 }
 
-export function signUp(credentials) {
+export function signIn(credentials) {
     const url = `${URL}/auth/signin`;
     return fetchWithError(url, {
         method: 'POST',

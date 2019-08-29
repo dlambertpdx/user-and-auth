@@ -15,7 +15,7 @@ class SignIn extends Component {
             };
 
             onSignIn(credentials);
-        })
+        });
     }
     renderHTML() {
         return /*html*/`
