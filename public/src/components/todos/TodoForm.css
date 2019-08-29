@@ -1,0 +1,24 @@
+.todo-form-section {
+    width: 280px;
+    margin: auto;
+}
+
+input {
+    width: 230px;
+    height: 25px;
+}
+
+.add-todo {
+    height: 30px;
+    
+}
+
+@media screen and (max-width: 445px) {
+    .todo-form-section {
+        width: 80%;
+        margin: 0 auto;
+    }
+    input {
+      width: 200px;
+    }
+  }
